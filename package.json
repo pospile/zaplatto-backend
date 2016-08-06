@@ -1,0 +1,22 @@
+{
+  "name": "zaplatto.cz-backend",
+  "version": "0.0.1",
+  "description": "zaplatto.cz backend service",
+  "main": "bin.js",
+  "scripts": {
+    "start": "node bin.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:pospile/zaplatto-backend.git"
+  },
+  "keywords": [
+    "zaplatto",
+    "pokladna",
+    "eet",
+    "system"
+  ],
+  "author": "zaplatto.cz",
+  "license": "UNLICENSED"
+}
