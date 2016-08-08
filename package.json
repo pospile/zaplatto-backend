@@ -1,6 +1,6 @@
 {
   "name": "zaplatto.cz-backend",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "zaplatto.cz backend service",
   "main": "bin.js",
   "scripts": {
@@ -18,5 +18,13 @@
     "system"
   ],
   "author": "zaplatto.cz",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "csv": "^1.1.0",
+    "generate-serial-number": "0.0.3",
+    "nedb": "^1.8.0",
+    "node-uuid": "^1.4.7",
+    "request": "^2.74.0",
+    "restify": "^4.1.1"
+  }
 }
