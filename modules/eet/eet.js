@@ -9,7 +9,7 @@ var sendReceipt = function (id_prov, id_pokl, trzba, callback) {
     var options =
     {
         method: 'POST',
-        url: "http://localhost",
+        url: "http://api.pospichal.me",
         headers:
         {
             'cache-control': 'no-cache',
@@ -27,6 +27,10 @@ var sendReceipt = function (id_prov, id_pokl, trzba, callback) {
         }
     };
 
+    if (require("../../config.json").debug)
+    {
+        options.url = "http://25.7.98.111";
+    }
 
     console.log("Pokousim se ulozit uctenku: " + options.formData.porad_cis);
     request(options, function (error, response, body) {
