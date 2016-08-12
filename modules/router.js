@@ -14,7 +14,7 @@ server.get("\/www\/?.*", restify.serveStatic({
     default: 'index.html'
 }));
 
-server.post('/api', function create(req, res, next) {
+server.post('/objednavka', function create(req, res, next) {
     console.log("request #"+count);
     console.log(req.params);
 

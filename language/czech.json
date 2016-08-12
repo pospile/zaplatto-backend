@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "language": "Čeština",
+    "default_currency": "Koruny"
+  },
+  "strings":{
+    "name": "Jméno"
+  }
+}

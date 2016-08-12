@@ -2,7 +2,7 @@
 /*REST API ISNT SAVING ANY DATA, JUST PASSING IT TO MINISTRY OF FINANCE SERVERS AND RETURN FIK*/
 var request = require("request");
 var uuid = require('node-uuid');
-var database = require("../database/database.js");
+var database = require("../database/_db-uctenka.js");
 
 var sendReceipt = function (id_prov, id_pokl, trzba, callback) {
     var date = new Date();
