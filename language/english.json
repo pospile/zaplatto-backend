@@ -1,3 +1,9 @@
 {
-
+    "settings": {
+        "language": "English",
+        "default_currency": "Euro"
+    },
+    "strings": {
+        "name": "Name"
+    }
 }
